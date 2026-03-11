@@ -82,21 +82,7 @@ const Sidebar = () => {
             </Link>
           </li>
           
-           <li>
-            <Link to="/product/addRams" onClick={closeSidebar}>
-              <Button className={menuBtnClass}><span>+ RAM</span></Button>
-            </Link>
-          </li>
-          <li>
-            <Link to="/product/addWeight" onClick={closeSidebar}>
-              <Button className={menuBtnClass}><span>+ Weight</span></Button>
-            </Link>
-          </li>
-          <li>
-            <Link to="/product/addSize" onClick={closeSidebar}>
-              <Button className={menuBtnClass}><span>+ Size</span></Button>
-            </Link>
-          </li>
+           
 
           <li>
             <Link to="/orders" onClick={closeSidebar}>
