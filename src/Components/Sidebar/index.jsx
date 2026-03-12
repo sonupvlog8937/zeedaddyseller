@@ -9,6 +9,7 @@ import {
   IoWalletOutline,
   IoImageOutline,
 } from "react-icons/io5";
+// import { MdOutlineRateReview } from "react-icons/md";
 import { IoMdLogOut } from "react-icons/io";
 import { FiUsers, FiChevronDown, FiChevronUp } from "react-icons/fi";
 import {
@@ -157,7 +158,7 @@ const Sidebar = () => {
 
               <GroupLabel label="Banners & Sliders" />
               <CollapseGroup groupKey="banners" icon={MdOutlinePermMedia} label="Banners">
-                <SubItem to="/bannerV1/list" label="Home Banners V1" />
+                <SubItem to="/banners/management" label="Banners Management" />
                 <SubItem to="/bannerlist2/List" label="Home Banners V2" />
                 <SubItem to="/banners/sidebar" label="Sidebar Banners" />
                 <SubItem to="/banners/category" label="Category Banners" />
